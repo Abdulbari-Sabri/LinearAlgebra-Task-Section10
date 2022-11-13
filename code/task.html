@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="../img/favicon.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script type="text/javascript" src = "scripts/Gauss_Jordan.js"></script>
+    <!-- Bootstrap Core CSS -->
+    <link href="styles/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" type="text/css" href="styles/styles.css">
+    <title>Task</title>
+</head>
+
+<body> 
+
+    <div class="head0">
+        <div class="row">
+            <a href="../index.html" class="nostyle">
+                <div class="col-md-6" id="eq3">
+                    <h1>Home</h1>
+                </div>
+            </a>
+            <div class="row">
+                <a href="../Doc/index.html" class="nostyle">
+                    <div class="col-md-6" id="eq2">
+                        <h1>Documentation</h1>
+                    </div>
+                </a>
+        </div>
+    </div>
+    <h1 align="center" id="spech1">Gauss Jordan V2.3</h1>
+    <hr>
+    
+        <!-- Page Content -->
+        <div id="page-content-wrapper">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div id="div0">
+
+                            <div id="MatrixSizeContainer">
+
+                                <h2>Select the size of matrix: </h2>
+                                <hr width="50%">
+                                <br>
+                                <select name="sizeInput" id="sizeInput" onchange="setMatrixSize()">
+                                    <option value="2">2 x 2</option>
+                                    <option value="3">3 x 3</option>
+                                    <option value="4">4 x 4</option>
+                                    <option value="5">5 x 5</option>
+                                </select>
+                            </div> 
+
+                            <div id="MatrixContainer">
+                                <form id="MatrixInputContainer" name= "MatrixInputContainer"></form>
+                            </div>
+                            <br>
+                            <button class="btns" onclick="startGaussJordan()">Solve</button>
+                            <button class="btns" onclick="clearInputs()">New System</button>
+                            
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-sm-6 col-sm-offset-3">
+                                        <center><form id="MatrixOutContainerT" name="MatrixOutContainer"></form></center>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div> 
+
+   
+
+       
+      
+        
+    </div>
+    
+    <div class="container">
+        <div class="col-sm-10 col-sm-offset-2">
+            <div id="operationOutput"></div>
+        </div>
+    </div>
+
+
+
+
+    <aside class="sidebar fixedsticky"><span>More Methods!</span>
+        <ul>
+            <a href="../code/Add_Subtract.html"><li>Add / Subtract V1.0</li></a>
+            <li>========================</li>
+            <li>SOON....</li>
+        </ul>
+        <br>
+    <a href="#" class="button">copyright © 2022 all rights reserved</a></aside>
+
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="scripts/bootstrap.min.js"></script>
+
+    <!-- Menu Toggle Script -->
+    <script>
+    $(document).ready(function() {
+        $("#wrapper").toggleClass("toggled");
+    });
+    </script>
+</body> 
+</html>

@@ -1,0 +1,237 @@
+*:focus {
+    outline: none;
+}
+body{
+  background: url(../img/background.jpg);
+}
+hr.new {
+  border-top: 2px solid rgb(0, 0, 0);
+  width: 80%;
+}
+
+#eq{
+  padding-top: 90px;
+  background-color: #3498db;
+  height: 215px;
+  text-align: center;
+  border-radius: 155px;
+  width: 426px;
+  padding-top: 69px;
+  box-shadow: 0 0 20px 0px #000;
+ }
+ #eq:hover{
+  transform: scale(1.1);
+  transition: .5s ease;
+  color: black;
+ }
+#ineq{
+    padding-top:90px;
+    background-color:#ff274b;
+    height:215px;
+    text-align: center;
+    border-radius: 155px;
+    width: 426px;
+    padding-top: 69px;
+    box-shadow: 0 0 20px 0px #000;
+
+}
+#ineq:hover{
+  transform: scale(1.1);
+  transition: .5s ease;
+  color: #000;
+ }
+
+#eq2{
+    padding-top:10px;
+    background-color:#3498db;
+    
+    height:100px;
+    text-align: center;
+    width: 100%;
+
+}
+#ineq2{
+    padding-top:10px;
+    background-color:#9b59b6;
+    height:100px;
+    text-align: center;
+
+}
+.nostyle{
+     color:white;
+     text-shadow:1px 0px 1px black;
+     text-decoration: none;
+ }
+
+.nostyle:hover{
+    color:white;
+    text-shadow:1px 0px 1px black;
+    text-decoration: none;
+}
+#cencol{
+    text-align: center;
+}
+
+#pmatrix{
+    text-align: center;
+    font-family: 'Baloo', cursive;
+    font-size:30px;
+    color: #34495e;
+}
+#div-matrix{
+    width: 100%;
+    text-align: center;
+}
+#matrix{
+    margin: 0 auto;
+    text-align: center;
+}
+
+.entries{
+    padding:5px;
+    width: 80px;
+    height: 30px;
+    font-family: 'Baloo', cursive;
+    font-size: 18px;
+    text-align: center;
+}
+.steps_entries{
+    padding:5px;
+    width: 80px;
+    height: 30px;
+    font-family: 'Baloo', cursive;
+    font-size: 14px;
+    text-align: center;
+}
+#fill{
+    padding:5px;
+    height:40px;
+    font-size:18px;
+    background-color:#3498db;
+    
+    color:white;
+    margin:10px;
+    font-family: 'Baloo', cursive;
+    border-radius:5px;
+}
+#calculate{
+    padding:5px;
+    height:40px;
+    font-size:18px;
+    background-color:#3498db;
+    color:white;
+    margin:10px;
+    font-family: 'Baloo', cursive;
+    border-radius:5px;
+}
+#result_matrix{
+    text-align: center;
+    font-family: 'Baloo', cursive;
+    font-size:30px;
+    color: #34495e;
+}
+.result{
+    padding:10px;
+    width: auto;
+    height: 30px;
+    font-family: 'Baloo', cursive;
+    font-size: 18px;
+    text-align: center;
+}
+#div-result{
+    width: 100%;
+    text-align: center;
+}
+#show_solution{
+    padding:5px;
+    height:40px;
+    font-size:18px;
+    background-color:#3498db;
+    color:white;
+    margin: 30px;
+    font-family: 'Baloo', cursive;
+    border-radius:5px;
+}
+
+
+
+
+  @font-face {
+    font-family: Exo;
+    src: url(./fonts/Exo2.0-Medium.otf);
+  }
+  .main{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .profile-card{
+    position: relative;
+    width: 220px;
+    height: 220px;
+    background: #fff;
+    padding: 40px;
+    border-radius: 50%;
+    box-shadow: 0 0 22px #3336;
+    transition: .6s;
+    margin: 0 25px;
+  }
+  .profile-card:hover{
+    border-radius: 10px;
+    height: 260px;
+  }
+  .profile-card .img{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transition: .6s;
+    z-index: 99;
+  }
+  .profile-card:hover .img{
+    transform: translateY(-60px);
+  }
+  .img img{
+    width: 100%;
+    border-radius: 50%;
+    transition: .6s;
+    box-shadow: 0px 0px 20px 0px #000;
+    }
+  .profile-card:hover img{
+    border-radius: 10px;
+  }
+  .caption{
+    text-align: center;
+    transform: translateY(-80px);
+    opacity: 0;
+    transition: .6s;
+  }
+  .profile-card:hover .caption{
+    opacity: 1;
+  }
+  .caption h3{
+    font-size: 21px;
+  }
+  .caption p{
+    font-size: 16px;
+    color: #0c52a1;
+    margin: 2px 0 9px 0;
+  }
+  .caption .social-links a{
+    color: #333;
+    margin-right: 8px;
+    font-size: 21px;
+    transition: .6s;
+  }
+  .social-links a:hover{
+    color: #0c52a1;
+  }
+  .row{
+    justify-content: space-between;
+    display: flex;
+  }
+  a:hover{
+    color: #ff274b;
+  }
+  

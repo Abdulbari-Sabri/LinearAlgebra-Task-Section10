@@ -1,0 +1,147 @@
+li:hover {
+    cursor: pointer;
+}
+
+.valueInput{
+    margin: 5px !important;
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid #999;
+    text-align: center; 
+}
+
+.outputMatriz{
+    font-size: 1.5rem;
+}
+
+#operationOutput {
+    margin-top: 5%;
+    text-align: center;
+    margin-right: 190px;
+}
+.nostyle {
+    color: white;
+    text-shadow: 1px 0px 1px black;
+    text-decoration: none;
+}
+#eq2 {
+    padding-top: 10px;
+    background-color: #ff274b;
+    height: 100px;
+    text-align: center;
+    width: 50%;
+}
+#eq3 {
+    padding-top: 10px;
+    background-color: #3498db;
+    height: 100px;
+    text-align: center;
+    width: 50%;
+}
+h1 {
+    font-family: 'Baloo', cursive;
+    font-size: 35px;
+    color: white;
+}
+h2 {
+    font-family: 'Baloo', cursive;
+    font-size: 35px;
+    color: black;
+    text-align: center;
+}
+#spech1 {
+    font-size: 50px;
+    color: #7f8c8d;
+}
+.row {
+    margin-right: -15px;
+    margin-left: -15px;
+    text-align: center;
+}
+.btns{
+    background-color: #3498db;
+    color: white;
+    font-family: 'Baloo', cursive;
+    width: 150px;
+    height: 50px;
+    padding: 10px;
+    font-size: 20px;
+    border-color: #7f8c8d;
+    border-radius: 5px;
+    box-shadow: 0px 0px 20px 2px gray;
+}
+.btns:hover{
+    color: black;
+}
+button, input, select, textarea {
+    font-family: 'Baloo', cursive;
+    font-size: 20px;
+    line-height: inherit;
+}
+
+
+
+
+
+/* formatting */
+.button {
+	display: block;
+    font-family: 'Baloo', cursive;
+	border-radius: 20px;
+	text-decoration: none;
+	text-align: center;
+	color: #fff;
+	background-color: red;
+	padding: .5em
+}
+.button:hover{
+    color: black;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+.sidebar {
+	padding: 2em 1.5em;
+    border: 2px solid;
+    border-radius: 20px;
+}
+@media (min-width:43.75em) {
+
+	/* responsive layout */
+	.candy-wrapper {
+		max-width: 60em;
+		margin: 0 auto;
+		position: relative;
+	}
+	.main {
+		display: inline-block;
+		width: 75%;
+		vertical-align: top;
+	}
+	.sidebar {
+		display: inline-block;
+		width: 25%;
+		vertical-align: top;
+        background-color: white;
+	}
+
+}
+
+span{
+    font-family: 'Baloo', cursive;
+    color: #ff274b;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    font-size: 35px;
+    margin-bottom: 20px;
+    font-weight: 900;
+}
+ul{
+    font-family: 'Baloo', cursive;
+    font-weight: 900;
+}
+body{
+    background: url(../img/background.jpg);
+  }
